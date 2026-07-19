@@ -1,0 +1,24 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["LeadsAtendimentos","Pacientes","Canais","_Medidas"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table LeadsAtendimentos
+ref table DateTableTemplate_a11c7e70-b182-4a8b-8c6b-fe3c2d8e1e82
+ref table LocalDateTable_1dca5c24-3ddb-4396-93d3-e9e9c29edd90
+ref table Pacientes
+ref table LocalDateTable_e17ef28c-bf97-46a6-a4ad-1a5dd0511fe8
+ref table Canais
+ref table _Medidas
+
+ref cultureInfo pt-BR
+

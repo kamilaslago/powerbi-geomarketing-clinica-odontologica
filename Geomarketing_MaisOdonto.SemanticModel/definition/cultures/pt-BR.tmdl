@@ -1,0 +1,3892 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "leads_atendimento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LeadsAtendimentos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "leads atendimento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "lead atendimento": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "LeadsAtendimentos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "leads_atendimento.ID_lead": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LeadsAtendimentos",
+			          "ConceptualProperty": "ID_Lead"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ID lead": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_Lead": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "lead": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "identification lead": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity lead": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier lead": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential lead": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "id principal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "id chief": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "id main": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "id central": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "id prime": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "id top": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "leads_atendimento.ID_paciente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LeadsAtendimentos",
+			          "ConceptualProperty": "ID_Paciente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "ID paciente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_Paciente": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification paciente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity paciente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier paciente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential paciente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "leads_atendimento.ID_canal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LeadsAtendimentos",
+			          "ConceptualProperty": "ID_Canal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "ID canal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_Canal": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "canal": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "identification canal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity canal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier canal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential canal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "id waterway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id seaway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "waterway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "seaway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "id channel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "channel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "leads_atendimento.data_contato": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LeadsAtendimentos",
+			          "ConceptualProperty": "Data_Contato"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data contato": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Data_Contato": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information contato": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact contato": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info contato": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic contato": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document contato": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure contato": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record contato": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "leads_atendimento.data_contato.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LeadsAtendimentos",
+			          "VariationSource": "Data_Contato",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "leads_atendimento.data_contato.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LeadsAtendimentos",
+			          "VariationSource": "Data_Contato",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data contato ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information contato ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact contato ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info contato ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic contato ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document contato ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure contato ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record contato ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "leads_atendimento.data_contato.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LeadsAtendimentos",
+			          "VariationSource": "Data_Contato",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data contato trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information contato trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact contato trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info contato trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic contato trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document contato trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure contato trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record contato trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "leads_atendimento.data_contato.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LeadsAtendimentos",
+			          "VariationSource": "Data_Contato",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data contato mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information contato mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact contato mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info contato mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic contato mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document contato mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure contato mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record contato mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "leads_atendimento.data_contato.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LeadsAtendimentos",
+			          "VariationSource": "Data_Contato",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data contato dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information contato dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact contato dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info contato dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic contato dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document contato dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure contato dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record contato dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "leads_atendimento.status_funil": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LeadsAtendimentos",
+			          "ConceptualProperty": "Status_Funil"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "status funil": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Status_Funil": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "category funil": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "importance funil": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "prestige funil": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "prominence funil": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "condition funil": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "class funil": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "grade funil": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "level funil": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "position funil": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "rank funil": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "leads_atendimento.procedimento_interesse": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LeadsAtendimentos",
+			          "ConceptualProperty": "Procedimento_Interesse"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "procedimento interesse": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Procedimento_Interesse": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "leads_atendimento.Valor_Tratamento_r": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "LeadsAtendimentos",
+			          "ConceptualProperty": "Valor_Tratamento (R$)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Valor_Tratamento (r$)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Valor_Tratamento": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "valor_tratamento (r dollar )": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        }
+			      ]
+			    },
+			    "paciente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pacientes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "paciente": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "paciente.ID_cliente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pacientes",
+			          "ConceptualProperty": "ID_Cliente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ID cliente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_Cliente": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "paciente.nome": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pacientes",
+			          "ConceptualProperty": "Nome"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "paciente.idade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pacientes",
+			          "ConceptualProperty": "Idade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "idade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "paciente.gênero": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pacientes",
+			          "ConceptualProperty": "Gênero"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gênero": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "paciente.bairro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pacientes",
+			          "ConceptualProperty": "Bairro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "bairro": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "paciente.cidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pacientes",
+			          "ConceptualProperty": "Cidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cidade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "paciente.telefone": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pacientes",
+			          "ConceptualProperty": "Telefone"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "telefone": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "paciente.data_cadastro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pacientes",
+			          "ConceptualProperty": "Data_Cadastro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data cadastro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Data_Cadastro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information cadastro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact cadastro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info cadastro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic cadastro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document cadastro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure cadastro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record cadastro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "paciente.data_cadastro.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pacientes",
+			          "VariationSource": "Data_Cadastro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "paciente.data_cadastro.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pacientes",
+			          "VariationSource": "Data_Cadastro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data cadastro ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information cadastro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact cadastro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info cadastro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic cadastro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document cadastro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure cadastro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record cadastro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "paciente.data_cadastro.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pacientes",
+			          "VariationSource": "Data_Cadastro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data cadastro trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information cadastro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact cadastro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info cadastro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic cadastro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document cadastro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure cadastro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record cadastro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "paciente.data_cadastro.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pacientes",
+			          "VariationSource": "Data_Cadastro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data cadastro mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information cadastro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact cadastro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info cadastro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic cadastro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document cadastro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure cadastro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record cadastro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "paciente.data_cadastro.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pacientes",
+			          "VariationSource": "Data_Cadastro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data cadastro dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information cadastro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact cadastro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info cadastro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic cadastro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document cadastro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure cadastro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record cadastro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "canais": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Canais"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "canais": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "canais.ID_canal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Canais",
+			          "ConceptualProperty": "ID_Canal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ID canal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_Canal": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "canal": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "identification canal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity canal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier canal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential canal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "id waterway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id seaway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "waterway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "seaway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "id channel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "channel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "canais.canal_origem": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Canais",
+			          "ConceptualProperty": "Canal_Origem"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "canal origem": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Canal_Origem": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Canal": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "canais.tipo_midia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Canais",
+			          "ConceptualProperty": "Tipo_Midia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo midia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Tipo_Midia": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "canais.Custo_Medio_Lead_r": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Canais",
+			          "ConceptualProperty": "Custo_Medio_Lead (R$)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Custo_Medio_Lead (r$)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Custo_Medio_Lead": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "custo_medio_lead (r dollar )": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.total_de_leads": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Total de Leads"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total de leads": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate de lead": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall de lead": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "total de principal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total de chief": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total de main": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total de central": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total de prime": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total de top": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total de indication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "total de pointer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.leads_convertidos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Leads Convertidos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "leads convertidos": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.taxa_de_conversão": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Taxa de conversão"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "taxa de conversão": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Conversão": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.faturamento_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Faturamento Total"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faturamento total": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "faturamento aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "faturamento overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "Faturamento": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.ticket_médio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Ticket Médio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ticket médio": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "paciente_data_cadastro_trimestre_has_paciente_data_cadastro_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "Pacientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paciente.data_cadastro.trimestre": {
+			          "Target": {
+			            "Entity": "paciente.data_cadastro.trimestre"
+			          }
+			        },
+			        "paciente.data_cadastro.mê": {
+			          "Target": {
+			            "Entity": "paciente.data_cadastro.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paciente.data_cadastro.trimestre"
+			            },
+			            "Object": {
+			              "Role": "paciente.data_cadastro.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paciente.data_cadastro.mê"
+			            },
+			            "Object": {
+			              "Role": "paciente.data_cadastro.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "paciente.data_cadastro.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "paciente.data_cadastro.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres1"
+			        }
+			      ]
+			    },
+			    "paciente_data_cadastro_ano_has_paciente_data_cadastro_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Pacientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paciente.data_cadastro.ano": {
+			          "Target": {
+			            "Entity": "paciente.data_cadastro.ano"
+			          }
+			        },
+			        "paciente.data_cadastro.trimestre": {
+			          "Target": {
+			            "Entity": "paciente.data_cadastro.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paciente.data_cadastro.ano"
+			            },
+			            "Object": {
+			              "Role": "paciente.data_cadastro.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paciente.data_cadastro.trimestre"
+			            },
+			            "Object": {
+			              "Role": "paciente.data_cadastro.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "paciente.data_cadastro.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "paciente.data_cadastro.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos1"
+			        }
+			      ]
+			    },
+			    "paciente_data_cadastro_hierarquia_de_data_has_paciente_data_cadastro_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Pacientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paciente.data_cadastro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "paciente.data_cadastro.hierarquia_de_data"
+			          }
+			        },
+			        "paciente.data_cadastro.dia": {
+			          "Target": {
+			            "Entity": "paciente.data_cadastro.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paciente.data_cadastro.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "paciente.data_cadastro.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias"
+			        }
+			      ]
+			    },
+			    "paciente_data_cadastro_hierarquia_de_data_has_paciente_data_cadastro_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "Pacientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paciente.data_cadastro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "paciente.data_cadastro.hierarquia_de_data"
+			          }
+			        },
+			        "paciente.data_cadastro.mê": {
+			          "Target": {
+			            "Entity": "paciente.data_cadastro.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paciente.data_cadastro.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "paciente.data_cadastro.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê"
+			        }
+			      ]
+			    },
+			    "paciente_data_cadastro_hierarquia_de_data_has_paciente_data_cadastro_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Pacientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paciente.data_cadastro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "paciente.data_cadastro.hierarquia_de_data"
+			          }
+			        },
+			        "paciente.data_cadastro.trimestre": {
+			          "Target": {
+			            "Entity": "paciente.data_cadastro.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paciente.data_cadastro.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "paciente.data_cadastro.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres"
+			        }
+			      ]
+			    },
+			    "paciente_data_cadastro_hierarquia_de_data_has_paciente_data_cadastro_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "Pacientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paciente.data_cadastro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "paciente.data_cadastro.hierarquia_de_data"
+			          }
+			        },
+			        "paciente.data_cadastro.ano": {
+			          "Target": {
+			            "Entity": "paciente.data_cadastro.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paciente.data_cadastro.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "paciente.data_cadastro.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos"
+			        }
+			      ]
+			    },
+			    "paciente_data_cadastro_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "Pacientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paciente.data_cadastro": {
+			          "Target": {
+			            "Entity": "paciente.data_cadastro"
+			          }
+			        },
+			        "paciente.data_cadastro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "paciente.data_cadastro.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paciente.data_cadastro"
+			            },
+			            "Object": {
+			              "Role": "paciente.data_cadastro.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_cadastros_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "leads_atendimento_data_contato_mê_has_leads_atendimento_data_contato_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "LeadsAtendimentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "leads_atendimento.data_contato.mê": {
+			          "Target": {
+			            "Entity": "leads_atendimento.data_contato.mê"
+			          }
+			        },
+			        "leads_atendimento.data_contato.dia": {
+			          "Target": {
+			            "Entity": "leads_atendimento.data_contato.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "leads_atendimento.data_contato.mê"
+			            },
+			            "Object": {
+			              "Role": "leads_atendimento.data_contato.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "leads_atendimento.data_contato.dia"
+			            },
+			            "Object": {
+			              "Role": "leads_atendimento.data_contato.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "leads_atendimento.data_contato.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "leads_atendimento.data_contato.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
+			        }
+			      ]
+			    },
+			    "leads_atendimento_data_contato_trimestre_has_leads_atendimento_data_contato_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "LeadsAtendimentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "leads_atendimento.data_contato.trimestre": {
+			          "Target": {
+			            "Entity": "leads_atendimento.data_contato.trimestre"
+			          }
+			        },
+			        "leads_atendimento.data_contato.mê": {
+			          "Target": {
+			            "Entity": "leads_atendimento.data_contato.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "leads_atendimento.data_contato.trimestre"
+			            },
+			            "Object": {
+			              "Role": "leads_atendimento.data_contato.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "leads_atendimento.data_contato.mê"
+			            },
+			            "Object": {
+			              "Role": "leads_atendimento.data_contato.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "leads_atendimento.data_contato.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "leads_atendimento.data_contato.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "leads_atendimento_data_contato_ano_has_leads_atendimento_data_contato_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "LeadsAtendimentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "leads_atendimento.data_contato.ano": {
+			          "Target": {
+			            "Entity": "leads_atendimento.data_contato.ano"
+			          }
+			        },
+			        "leads_atendimento.data_contato.trimestre": {
+			          "Target": {
+			            "Entity": "leads_atendimento.data_contato.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "leads_atendimento.data_contato.ano"
+			            },
+			            "Object": {
+			              "Role": "leads_atendimento.data_contato.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "leads_atendimento.data_contato.trimestre"
+			            },
+			            "Object": {
+			              "Role": "leads_atendimento.data_contato.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "leads_atendimento.data_contato.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "leads_atendimento.data_contato.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos"
+			        }
+			      ]
+			    },
+			    "leads_atendimento_data_contato_hierarquia_de_data_has_leads_atendimento_data_contato_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "LeadsAtendimentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "leads_atendimento.data_contato.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "leads_atendimento.data_contato.hierarquia_de_data"
+			          }
+			        },
+			        "leads_atendimento.data_contato.dia": {
+			          "Target": {
+			            "Entity": "leads_atendimento.data_contato.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "leads_atendimento.data_contato.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "leads_atendimento.data_contato.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias1"
+			        }
+			      ]
+			    },
+			    "leads_atendimento_data_contato_hierarquia_de_data_has_leads_atendimento_data_contato_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "LeadsAtendimentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "leads_atendimento.data_contato.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "leads_atendimento.data_contato.hierarquia_de_data"
+			          }
+			        },
+			        "leads_atendimento.data_contato.mê": {
+			          "Target": {
+			            "Entity": "leads_atendimento.data_contato.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "leads_atendimento.data_contato.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "leads_atendimento.data_contato.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê1"
+			        }
+			      ]
+			    },
+			    "leads_atendimento_data_contato_hierarquia_de_data_has_leads_atendimento_data_contato_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "LeadsAtendimentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "leads_atendimento.data_contato.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "leads_atendimento.data_contato.hierarquia_de_data"
+			          }
+			        },
+			        "leads_atendimento.data_contato.trimestre": {
+			          "Target": {
+			            "Entity": "leads_atendimento.data_contato.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "leads_atendimento.data_contato.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "leads_atendimento.data_contato.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres1"
+			        }
+			      ]
+			    },
+			    "leads_atendimento_data_contato_hierarquia_de_data_has_leads_atendimento_data_contato_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "LeadsAtendimentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "leads_atendimento.data_contato.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "leads_atendimento.data_contato.hierarquia_de_data"
+			          }
+			        },
+			        "leads_atendimento.data_contato.ano": {
+			          "Target": {
+			            "Entity": "leads_atendimento.data_contato.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "leads_atendimento.data_contato.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "leads_atendimento.data_contato.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos1"
+			        }
+			      ]
+			    },
+			    "leads_atendimento_data_contato_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "LeadsAtendimentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "leads_atendimento.data_contato": {
+			          "Target": {
+			            "Entity": "leads_atendimento.data_contato"
+			          }
+			        },
+			        "leads_atendimento.data_contato.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "leads_atendimento.data_contato.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "leads_atendimento.data_contato"
+			            },
+			            "Object": {
+			              "Role": "leads_atendimento.data_contato.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_contatos_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "leads_atendimento_has_canais": {
+			      "Binding": {
+			        "ConceptualEntity": "LeadsAtendimentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "leads_atendimento": {
+			          "Target": {
+			            "Entity": "leads_atendimento"
+			          }
+			        },
+			        "canais": {
+			          "Target": {
+			            "Entity": "canais"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "leads_atendimento"
+			            },
+			            "Object": {
+			              "Role": "canais"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "leads_atendimentos_have_canaises"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "canais"
+			            },
+			            "Object": {
+			              "Role": "leads_atendimento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "canaises_have_leads_atendimentos"
+			        }
+			      ]
+			    },
+			    "leads_atendimento_has_paciente": {
+			      "Binding": {
+			        "ConceptualEntity": "LeadsAtendimentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "leads_atendimento": {
+			          "Target": {
+			            "Entity": "leads_atendimento"
+			          }
+			        },
+			        "paciente": {
+			          "Target": {
+			            "Entity": "paciente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "leads_atendimento"
+			            },
+			            "Object": {
+			              "Role": "paciente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "leads_atendimentos_have_pacientes"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paciente"
+			            },
+			            "Object": {
+			              "Role": "leads_atendimento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pacientes_have_leads_atendimentos"
+			        }
+			      ]
+			    },
+			    "leads_atendimento_has_entity__medida_ticket_médio": {
+			      "Binding": {
+			        "ConceptualEntity": "LeadsAtendimentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "leads_atendimento": {
+			          "Target": {
+			            "Entity": "leads_atendimento"
+			          }
+			        },
+			        "entity__medida.ticket_médio": {
+			          "Target": {
+			            "Entity": "entity__medida.ticket_médio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "leads_atendimento"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.ticket_médio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "leads_atendimentos_have_ticket_médio"
+			        }
+			      ]
+			    },
+			    "leads_atendimento_has_entity__medida_faturamento_total": {
+			      "Binding": {
+			        "ConceptualEntity": "LeadsAtendimentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "leads_atendimento": {
+			          "Target": {
+			            "Entity": "leads_atendimento"
+			          }
+			        },
+			        "entity__medida.faturamento_total": {
+			          "Target": {
+			            "Entity": "entity__medida.faturamento_total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "leads_atendimento"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.faturamento_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "leads_atendimentos_have_faturamento_total"
+			        }
+			      ]
+			    },
+			    "leads_atendimento_has_entity__medida_taxa_de_conversão": {
+			      "Binding": {
+			        "ConceptualEntity": "LeadsAtendimentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "leads_atendimento": {
+			          "Target": {
+			            "Entity": "leads_atendimento"
+			          }
+			        },
+			        "entity__medida.taxa_de_conversão": {
+			          "Target": {
+			            "Entity": "entity__medida.taxa_de_conversão"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "leads_atendimento"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.taxa_de_conversão"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "leads_atendimentos_have_taxa_de_conversão"
+			        }
+			      ]
+			    },
+			    "leads_atendimento_has_entity__medida_leads_convertidos": {
+			      "Binding": {
+			        "ConceptualEntity": "LeadsAtendimentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "leads_atendimento": {
+			          "Target": {
+			            "Entity": "leads_atendimento"
+			          }
+			        },
+			        "entity__medida.leads_convertidos": {
+			          "Target": {
+			            "Entity": "entity__medida.leads_convertidos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "leads_atendimento"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.leads_convertidos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "leads_atendimentos_have_leads_convertidos"
+			        }
+			      ]
+			    },
+			    "leads_atendimento_has_entity__medida_total_de_leads": {
+			      "Binding": {
+			        "ConceptualEntity": "LeadsAtendimentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "leads_atendimento": {
+			          "Target": {
+			            "Entity": "leads_atendimento"
+			          }
+			        },
+			        "entity__medida.total_de_leads": {
+			          "Target": {
+			            "Entity": "entity__medida.total_de_leads"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "leads_atendimento"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.total_de_leads"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "leads_atendimentos_have_total_de_leads"
+			        }
+			      ]
+			    },
+			    "canais_has_Custo_Medio_Lead_r": {
+			      "Binding": {
+			        "ConceptualEntity": "Canais"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "canais": {
+			          "Target": {
+			            "Entity": "canais"
+			          }
+			        },
+			        "canais.Custo_Medio_Lead_r": {
+			          "Target": {
+			            "Entity": "canais.Custo_Medio_Lead_r"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "canais"
+			            },
+			            "Object": {
+			              "Role": "canais.Custo_Medio_Lead_r"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "canaises_have_Custo_Medio_Lead_r"
+			        }
+			      ]
+			    },
+			    "canais_has_tipo_midia": {
+			      "Binding": {
+			        "ConceptualEntity": "Canais"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "canais": {
+			          "Target": {
+			            "Entity": "canais"
+			          }
+			        },
+			        "canais.tipo_midia": {
+			          "Target": {
+			            "Entity": "canais.tipo_midia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "canais"
+			            },
+			            "Object": {
+			              "Role": "canais.tipo_midia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "canaises_have_tipo_midias"
+			        }
+			      ]
+			    },
+			    "canais_has_canal_origem": {
+			      "Binding": {
+			        "ConceptualEntity": "Canais"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "canais": {
+			          "Target": {
+			            "Entity": "canais"
+			          }
+			        },
+			        "canais.canal_origem": {
+			          "Target": {
+			            "Entity": "canais.canal_origem"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "canais"
+			            },
+			            "Object": {
+			              "Role": "canais.canal_origem"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "canaises_have_canal_origems"
+			        }
+			      ]
+			    },
+			    "canais_has_ID_canal": {
+			      "Binding": {
+			        "ConceptualEntity": "Canais"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "canais": {
+			          "Target": {
+			            "Entity": "canais"
+			          }
+			        },
+			        "canais.ID_canal": {
+			          "Target": {
+			            "Entity": "canais.ID_canal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "canais"
+			            },
+			            "Object": {
+			              "Role": "canais.ID_canal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "canaises_have_ID_canals"
+			        }
+			      ]
+			    },
+			    "paciente_has_data_cadastro": {
+			      "Binding": {
+			        "ConceptualEntity": "Pacientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paciente": {
+			          "Target": {
+			            "Entity": "paciente"
+			          }
+			        },
+			        "paciente.data_cadastro": {
+			          "Target": {
+			            "Entity": "paciente.data_cadastro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paciente"
+			            },
+			            "Object": {
+			              "Role": "paciente.data_cadastro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pacientes_have_data_cadastros"
+			        }
+			      ]
+			    },
+			    "paciente_has_telefone": {
+			      "Binding": {
+			        "ConceptualEntity": "Pacientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paciente": {
+			          "Target": {
+			            "Entity": "paciente"
+			          }
+			        },
+			        "paciente.telefone": {
+			          "Target": {
+			            "Entity": "paciente.telefone"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paciente"
+			            },
+			            "Object": {
+			              "Role": "paciente.telefone"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pacientes_have_telefones"
+			        }
+			      ]
+			    },
+			    "paciente_has_cidade": {
+			      "Binding": {
+			        "ConceptualEntity": "Pacientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paciente": {
+			          "Target": {
+			            "Entity": "paciente"
+			          }
+			        },
+			        "paciente.cidade": {
+			          "Target": {
+			            "Entity": "paciente.cidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paciente"
+			            },
+			            "Object": {
+			              "Role": "paciente.cidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pacientes_have_cidades"
+			        }
+			      ]
+			    },
+			    "paciente_has_bairro": {
+			      "Binding": {
+			        "ConceptualEntity": "Pacientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paciente": {
+			          "Target": {
+			            "Entity": "paciente"
+			          }
+			        },
+			        "paciente.bairro": {
+			          "Target": {
+			            "Entity": "paciente.bairro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paciente"
+			            },
+			            "Object": {
+			              "Role": "paciente.bairro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pacientes_have_bairros"
+			        }
+			      ]
+			    },
+			    "paciente_has_gênero": {
+			      "Binding": {
+			        "ConceptualEntity": "Pacientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paciente": {
+			          "Target": {
+			            "Entity": "paciente"
+			          }
+			        },
+			        "paciente.gênero": {
+			          "Target": {
+			            "Entity": "paciente.gênero"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paciente"
+			            },
+			            "Object": {
+			              "Role": "paciente.gênero"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pacientes_have_gêneros"
+			        }
+			      ]
+			    },
+			    "paciente_has_idade": {
+			      "Binding": {
+			        "ConceptualEntity": "Pacientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paciente": {
+			          "Target": {
+			            "Entity": "paciente"
+			          }
+			        },
+			        "paciente.idade": {
+			          "Target": {
+			            "Entity": "paciente.idade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paciente"
+			            },
+			            "Object": {
+			              "Role": "paciente.idade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pacientes_have_idades"
+			        }
+			      ]
+			    },
+			    "paciente_has_nome": {
+			      "Binding": {
+			        "ConceptualEntity": "Pacientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paciente": {
+			          "Target": {
+			            "Entity": "paciente"
+			          }
+			        },
+			        "paciente.nome": {
+			          "Target": {
+			            "Entity": "paciente.nome"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paciente"
+			            },
+			            "Object": {
+			              "Role": "paciente.nome"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pacientes_have_nome"
+			        }
+			      ]
+			    },
+			    "paciente_has_ID_cliente": {
+			      "Binding": {
+			        "ConceptualEntity": "Pacientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paciente": {
+			          "Target": {
+			            "Entity": "paciente"
+			          }
+			        },
+			        "paciente.ID_cliente": {
+			          "Target": {
+			            "Entity": "paciente.ID_cliente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paciente"
+			            },
+			            "Object": {
+			              "Role": "paciente.ID_cliente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pacientes_have_ID_clientes"
+			        }
+			      ]
+			    },
+			    "leads_atendimento_has_Valor_Tratamento_r": {
+			      "Binding": {
+			        "ConceptualEntity": "LeadsAtendimentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "leads_atendimento": {
+			          "Target": {
+			            "Entity": "leads_atendimento"
+			          }
+			        },
+			        "leads_atendimento.Valor_Tratamento_r": {
+			          "Target": {
+			            "Entity": "leads_atendimento.Valor_Tratamento_r"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "leads_atendimento"
+			            },
+			            "Object": {
+			              "Role": "leads_atendimento.Valor_Tratamento_r"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "leads_atendimentos_have_Valor_Tratamento_r"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "leads_atendimento"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "leads_atendimento.Valor_Tratamento_r"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Valor_Tratamento_r_indicates_how_expensive_leads_atendimentos_are"
+			        }
+			      ]
+			    },
+			    "leads_atendimento_has_procedimento_interesse": {
+			      "Binding": {
+			        "ConceptualEntity": "LeadsAtendimentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "leads_atendimento": {
+			          "Target": {
+			            "Entity": "leads_atendimento"
+			          }
+			        },
+			        "leads_atendimento.procedimento_interesse": {
+			          "Target": {
+			            "Entity": "leads_atendimento.procedimento_interesse"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "leads_atendimento"
+			            },
+			            "Object": {
+			              "Role": "leads_atendimento.procedimento_interesse"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "leads_atendimentos_have_procedimento_interesses"
+			        }
+			      ]
+			    },
+			    "leads_atendimento_has_status_funil": {
+			      "Binding": {
+			        "ConceptualEntity": "LeadsAtendimentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "leads_atendimento": {
+			          "Target": {
+			            "Entity": "leads_atendimento"
+			          }
+			        },
+			        "leads_atendimento.status_funil": {
+			          "Target": {
+			            "Entity": "leads_atendimento.status_funil"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "leads_atendimento"
+			            },
+			            "Object": {
+			              "Role": "leads_atendimento.status_funil"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "leads_atendimentos_have_status_funils"
+			        }
+			      ]
+			    },
+			    "leads_atendimento_has_data_contato": {
+			      "Binding": {
+			        "ConceptualEntity": "LeadsAtendimentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "leads_atendimento": {
+			          "Target": {
+			            "Entity": "leads_atendimento"
+			          }
+			        },
+			        "leads_atendimento.data_contato": {
+			          "Target": {
+			            "Entity": "leads_atendimento.data_contato"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "leads_atendimento"
+			            },
+			            "Object": {
+			              "Role": "leads_atendimento.data_contato"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "leads_atendimentos_have_data_contatos"
+			        }
+			      ]
+			    },
+			    "leads_atendimento_has_ID_lead": {
+			      "Binding": {
+			        "ConceptualEntity": "LeadsAtendimentos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "leads_atendimento": {
+			          "Target": {
+			            "Entity": "leads_atendimento"
+			          }
+			        },
+			        "leads_atendimento.ID_lead": {
+			          "Target": {
+			            "Entity": "leads_atendimento.ID_lead"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "leads_atendimento"
+			            },
+			            "Object": {
+			              "Role": "leads_atendimento.ID_lead"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "leads_atendimentos_have_ID_leads"
+			        }
+			      ]
+			    },
+			    "paciente_data_cadastro_mê_has_paciente_data_cadastro_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Pacientes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "paciente.data_cadastro.mê": {
+			          "Target": {
+			            "Entity": "paciente.data_cadastro.mê"
+			          }
+			        },
+			        "paciente.data_cadastro.dia": {
+			          "Target": {
+			            "Entity": "paciente.data_cadastro.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paciente.data_cadastro.mê"
+			            },
+			            "Object": {
+			              "Role": "paciente.data_cadastro.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "paciente.data_cadastro.dia"
+			            },
+			            "Object": {
+			              "Role": "paciente.data_cadastro.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "paciente.data_cadastro.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "paciente.data_cadastro.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê1"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

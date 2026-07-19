@@ -1,0 +1,40 @@
+table _Medidas
+	lineageTag: cfd08e33-3251-4ec5-ac92-356727cf0dc1
+
+	measure 'Total de Leads' = COUNTROWS(LeadsAtendimentos)
+		formatString: 0
+		lineageTag: 9bdb5cde-748e-41f6-9a15-d0cbead12a7a
+
+	measure 'Leads Convertidos' = CALCULATE([Total de Leads],LeadsAtendimentos[Status_Funil] = "Tratamento Fechado")
+		formatString: 0
+		lineageTag: aa561433-263e-4d5d-b75b-b6f3bc7c5947
+
+	measure 'Taxa de conversão' = DIVIDE([Leads Convertidos],[Total de Leads],0)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 8a18a89e-d38c-423d-8c5b-598074d25dbc
+
+	measure 'Faturamento Total' = CALCULATE (SUM(LeadsAtendimentos[Valor_Tratamento (R$)]), LeadsAtendimentos[Status_Funil] = "Tratamento Fechado")
+		formatString: 0
+		lineageTag: 165a6d91-a9ba-4c12-b807-0d3449d57c65
+
+	measure 'Ticket Médio' = DIVIDE([Faturamento Total],[Leads Convertidos],0)
+		formatString: "R$"\ #,0.00;-"R$"\ #,0.00;"R$"\ #,0.00
+		lineageTag: 2e2b3cf1-fc5e-4308-b03c-02266103195d
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	partition _Medidas = m
+		mode: import
+		source =
+				let
+				    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Coluna 1" = _t]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte,{{"Coluna 1", type text}}),
+				    #"Colunas Renomeadas" = Table.RenameColumns(#"Tipo Alterado",{{"Coluna 1", "Medidas"}}),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Colunas Renomeadas",{"Medidas"})
+				in
+				    #"Colunas Removidas"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

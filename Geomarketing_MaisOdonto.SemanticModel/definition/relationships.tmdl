@@ -1,0 +1,18 @@
+relationship bd9b47d8-2fea-4df3-90ac-b8c0ebba0f54
+	joinOnDateBehavior: datePartOnly
+	fromColumn: LeadsAtendimentos.Data_Contato
+	toColumn: LocalDateTable_1dca5c24-3ddb-4396-93d3-e9e9c29edd90.Date
+
+relationship 7f11e4ca-0fe1-443b-8810-d42036ce811f
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Pacientes.Data_Cadastro
+	toColumn: LocalDateTable_e17ef28c-bf97-46a6-a4ad-1a5dd0511fe8.Date
+
+relationship 7427fbf5-3342-c011-613e-a10fdaff0363
+	fromColumn: LeadsAtendimentos.ID_Paciente
+	toColumn: Pacientes.ID_Cliente
+
+relationship 3c3fa9a3-2d82-d134-2dcc-f92d341992c5
+	fromColumn: LeadsAtendimentos.ID_Canal
+	toColumn: Canais.ID_Canal
+

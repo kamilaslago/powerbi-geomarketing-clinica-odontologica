@@ -1,0 +1,74 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 334,
+            "y": 23
+          },
+          "nodeIndex": "Canais",
+          "nodeLineageTag": "c3049c56-bd61-467f-bc45-82eb4f4e16d7",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 50,
+            "y": -13
+          },
+          "nodeIndex": "LeadsAtendimentos",
+          "nodeLineageTag": "eb1d279a-5075-4f42-845f-9d9389baf1a5",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 37,
+            "y": 293
+          },
+          "nodeIndex": "Pacientes",
+          "nodeLineageTag": "de7993ac-74f6-4e30-a1f5-982c44ba0929",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 636,
+            "y": 164
+          },
+          "nodeIndex": "_Medidas",
+          "nodeLineageTag": "cfd08e33-3251-4ec5-ac92-356727cf0dc1",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 3
+        }
+      ],
+      "name": "Todas as tabelas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas as tabelas",
+  "defaultDiagram": "Todas as tabelas"
+}

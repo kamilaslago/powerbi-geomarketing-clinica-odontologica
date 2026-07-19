@@ -1,0 +1,67 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "4143b724e4c3dac21e7e",
+  "displayName": "Performance Comercial",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "pageBinding": {
+    "name": "73c58dc66b1b14f9b521",
+    "type": "Default",
+    "parameters": [],
+    "referenceScope": "CrossReport"
+  },
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#EFFDFF'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "6c9f0aa4f43ef51ed14b",
+      "target": "63a1507b48fc5baedb17",
+      "type": "NoFilter"
+    },
+    {
+      "source": "6c9f0aa4f43ef51ed14b",
+      "target": "f71ef7b251ab9b468710",
+      "type": "NoFilter"
+    },
+    {
+      "source": "6c9f0aa4f43ef51ed14b",
+      "target": "dc8a1df234aed8356e9b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "6c9f0aa4f43ef51ed14b",
+      "target": "164627eb7fc38228c369",
+      "type": "NoFilter"
+    },
+    {
+      "source": "fd278278d3bdec1b170b",
+      "target": "6c9f0aa4f43ef51ed14b",
+      "type": "DataFilter"
+    }
+  ]
+}

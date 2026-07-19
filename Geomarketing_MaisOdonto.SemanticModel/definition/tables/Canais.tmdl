@@ -1,0 +1,49 @@
+table Canais
+	lineageTag: c3049c56-bd61-467f-bc45-82eb4f4e16d7
+
+	column ID_Canal
+		dataType: string
+		lineageTag: 404e6d43-a8a4-4397-b58a-73bae54cd048
+		summarizeBy: none
+		sourceColumn: ID_Canal
+
+		annotation SummarizationSetBy = Automatic
+
+	column Canal_Origem
+		dataType: string
+		lineageTag: 362dc193-66e9-4249-bc98-911f21d176e0
+		summarizeBy: none
+		sourceColumn: Canal_Origem
+
+		annotation SummarizationSetBy = Automatic
+
+	column Tipo_Midia
+		dataType: string
+		lineageTag: 9437e0a1-46b0-417f-ace7-1e8b7a50e942
+		summarizeBy: none
+		sourceColumn: Tipo_Midia
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Custo_Medio_Lead (R$)'
+		dataType: int64
+		formatString: 0
+		lineageTag: a3088ac4-8cf9-4845-a7f5-ebc10eeb1a1a
+		summarizeBy: none
+		sourceColumn: Custo_Medio_Lead (R$)
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Canais = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\kamil\Downloads\Geomarketing Clinica MaisOdonto.xlsx"), null, true),
+				    Canais_Sheet = Fonte{[Item="Canais",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Canais_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"ID_Canal", type text}, {"Canal_Origem", type text}, {"Tipo_Midia", type text}, {"Custo_Medio_Lead (R$)", Int64.Type}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,100 @@
+table Pacientes
+	lineageTag: de7993ac-74f6-4e30-a1f5-982c44ba0929
+
+	column ID_Cliente
+		dataType: string
+		lineageTag: 77223ee6-4a6b-4e4c-aec6-375bb9afa315
+		summarizeBy: none
+		sourceColumn: ID_Cliente
+
+		annotation SummarizationSetBy = Automatic
+
+	column Nome
+		dataType: string
+		lineageTag: 328cfb60-09ad-4530-954b-398ed70ff72c
+		summarizeBy: none
+		sourceColumn: Nome
+
+		annotation SummarizationSetBy = Automatic
+
+	column Idade
+		dataType: int64
+		formatString: 0
+		lineageTag: c2b3367e-eb11-4167-94e7-047406eaa544
+		summarizeBy: sum
+		sourceColumn: Idade
+
+		annotation SummarizationSetBy = Automatic
+
+	column Gênero
+		dataType: string
+		lineageTag: cf564fca-fbd1-4182-b082-03e8bedff273
+		summarizeBy: none
+		sourceColumn: Gênero
+
+		annotation SummarizationSetBy = Automatic
+
+	column Bairro
+		dataType: string
+		lineageTag: a3d1910e-8a7d-40b1-a8d9-281d753993d0
+		summarizeBy: none
+		sourceColumn: Bairro
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cidade
+		dataType: string
+		lineageTag: 519974b0-c372-448a-8307-0b3e6b49a4d5
+		summarizeBy: none
+		sourceColumn: Cidade
+
+		annotation SummarizationSetBy = Automatic
+
+	column Telefone
+		dataType: string
+		lineageTag: 71a324c1-b45b-4eec-9bca-b22bfa95b204
+		summarizeBy: none
+		sourceColumn: Telefone
+
+		annotation SummarizationSetBy = Automatic
+
+	column Data_Cadastro
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: e6c46b77-deaf-4f5a-8987-62f378c22a1f
+		summarizeBy: none
+		sourceColumn: Data_Cadastro
+
+		variation Variation
+			isDefault
+			relationship: 7f11e4ca-0fe1-443b-8810-d42036ce811f
+			defaultHierarchy: LocalDateTable_e17ef28c-bf97-46a6-a4ad-1a5dd0511fe8.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Localizacao_Completa = ```
+			SWITCH(TRUE(), 
+			Pacientes[Cidade] = "Valparaíso de Goiás" || Pacientes[Cidade] = "Valparaíso", Pacientes[Cidade] & ", Goiás - Brasil",
+			Pacientes[Cidade] = "Cidade Ocidental", Pacientes[Cidade] & ", Goiás - Brasil",
+			Pacientes[Cidade] & ", Distrito Federal - Brasil")
+			```
+		lineageTag: 2cfeef28-5bc8-4bd9-886b-e69841493ab6
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Pacientes = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\kamil\Downloads\Geomarketing Clinica MaisOdonto.xlsx"), null, true),
+				    Pacientes_Sheet = Fonte{[Item="Pacientes",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Pacientes_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"ID_Cliente", type text}, {"Nome", type text}, {"Idade", Int64.Type}, {"Gênero", type text}, {"Bairro", type text}, {"Cidade", type text}, {"Telefone", type text}, {"Data_Cadastro", type date}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_ResultType = Table
+
