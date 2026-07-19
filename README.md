@@ -1,4 +1,4 @@
-![Geomarketing Mais Odonto](Geomarketing_MaisOdonto.jpeg)
+![Geomarketing Mais Odonto](Geomarketing_MaisOdonto.png)
 # 📍 Geomarketing para Clínica Odontológica (MaisOdonto)
 
 Este projeto aplica conceitos de **Geomarketing** utilizando o Power BI para analisar a distribuição geográfica de clientes, identificar oportunidades de mercado e otimizar estratégias de captação e fidelização para a clínica odontológica **MaisOdonto**.
